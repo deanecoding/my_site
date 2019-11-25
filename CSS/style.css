@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+html {
+    height: auto;
+}
+
+main {
+    height: auto;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    padding-bottom: 60px;
+    height: 100%;
+}
+
+header {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.inputform {
+    resize: both;
+    overflow: auto;
+}
+
+.sendmessage {
+
+    text-align: center;
+}
+
+.submitbutton {
+    margin-bottom: 20px;
+}
+
+.mymedia {
+    display: inline-block;
+    margin: 10px;
+}
+
+figure {
+    display: inline-block;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+.homeimages {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul {
+    margin-top: 0px;
+    margin-left: -35px;
+    font-size: 18px;
+    background: rgba(194, 194, 194, 0.623);
+}
+
+figcaption {
+    font-size: 12px;
+}
+
+.welcome {
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: rgba(194, 194, 194, 0.623);
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+    position: relative;
+    bottom: 0;
+}
+
+@media screen and (max-width: 660px) {
+    body {
+        width: auto;
+        ;
+    }
+    .homeimages {
+        display: block;
+        width: 100%;
+    }
+    .mediabox {
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+    main {
+        margin-top: 50px;
+    }
+}
